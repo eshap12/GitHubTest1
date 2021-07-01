@@ -170,6 +170,9 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
                                 <state key="normal" title=" Back ">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="3vU-fd-shU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuR-on-50U">
                                 <rect key="frame" x="318" y="771" width="58" height="34"/>
@@ -179,6 +182,9 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
                                 <state key="normal" title="Next">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pTS-k1-fAt" kind="show" id="f9s-Qr-F1U"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CII-1X-sPD"/>
@@ -195,7 +201,7 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
             <objects>
                 <viewController id="pTS-k1-fAt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wh9-XE-Bia">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZh-4s-4RZ">
@@ -208,27 +214,34 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8a-BA-Skq">
-                                <rect key="frame" x="35" y="815" width="58" height="34"/>
+                                <rect key="frame" x="35" y="775" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title=" Back ">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="PM8-Mw-RSf" kind="show" id="jLf-R8-cPT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qa4-UR-otW">
-                                <rect key="frame" x="323" y="815" width="58" height="34"/>
+                                <rect key="frame" x="323" y="775" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="RrF-KU-m7z" kind="show" id="h5T-eO-Rh3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ol5-2K-LMF"/>
                         <color key="backgroundColor" red="0.92829943790000002" green="0.85660956860000004" blue="0.73156211289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wXI-mu-ezM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adv-nS-0uq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -239,7 +252,7 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
             <objects>
                 <viewController id="RrF-KU-m7z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hwc-YE-zCy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uri-LZ-Juq">
@@ -252,27 +265,34 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4T-Bc-lqh">
-                                <rect key="frame" x="39" y="810" width="58" height="34"/>
+                                <rect key="frame" x="39" y="778" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title=" Back ">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pTS-k1-fAt" kind="show" id="Ror-Ow-o1G"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5J-JX-p54">
-                                <rect key="frame" x="324" y="810" width="58" height="34"/>
+                                <rect key="frame" x="324" y="778" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kUK-tv-K73" kind="show" id="nDC-eU-Jxf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qip-pi-yJD"/>
                         <color key="backgroundColor" red="0.92829943790000002" green="0.85660956860000004" blue="0.73156211289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sbZ-Bh-3Yz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eui-gP-50a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -283,7 +303,7 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
             <objects>
                 <viewController id="kUK-tv-K73" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SIe-wJ-8Cd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jno-mX-zrl">
@@ -295,27 +315,34 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMe-6R-kQf">
-                                <rect key="frame" x="33" y="813" width="58" height="34"/>
+                                <rect key="frame" x="33" y="778" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title=" Back ">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="RrF-KU-m7z" kind="show" id="spV-pM-PUZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nn7-US-DQf">
-                                <rect key="frame" x="325" y="813" width="58" height="34"/>
+                                <rect key="frame" x="325" y="778" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Ebc-7L-Nuo" kind="show" id="NlD-d0-Hj6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rho-gu-Ygr"/>
                         <color key="backgroundColor" red="0.92829943790000002" green="0.85660956860000004" blue="0.73156211289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Siz-rR-QFd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1p-zp-RsL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -326,7 +353,7 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
             <objects>
                 <viewController id="Ebc-7L-Nuo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fuV-SW-7Mt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6v-OM-HFb">
@@ -339,33 +366,96 @@ You woke up late for school! There’s no time to eat breakfast, how will you ge
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEY-e8-PsK">
-                                <rect key="frame" x="35" y="808" width="58" height="34"/>
+                                <rect key="frame" x="35" y="779" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title=" Back ">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kUK-tv-K73" kind="show" id="YvQ-MB-PwT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWb-ua-pAE">
-                                <rect key="frame" x="339" y="808" width="58" height="34"/>
+                                <rect key="frame" x="339" y="779" width="58" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bH1-bo-iB7" kind="show" id="5TR-mk-fFt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7TB-Mi-bgG"/>
                         <color key="backgroundColor" red="0.92829943790000002" green="0.85660956860000004" blue="0.73156211289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1h3-Ni-IeL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncq-9V-yWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3982.6086956521744" y="63.616071428571423"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="8HJ-HS-Gju">
+            <objects>
+                <viewController id="bH1-bo-iB7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aDI-4V-zTX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled_Artwork.png" translatesAutoresizingMaskIntoConstraints="NO" id="7MR-DK-cvu">
+                                <rect key="frame" x="44" y="293" width="327" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congrats! You completed " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ysy-sZ-n4H">
+                                <rect key="frame" x="14" y="130" width="387" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="the game!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXW-9K-Ote">
+                                <rect key="frame" x="127" y="180" width="160" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33407467600000001" green="0.44914472100000002" blue="0.33743929859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHR-df-Xsn">
+                                <rect key="frame" x="86" y="585" width="252" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Return to home page">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="N0W-rF-BPZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8in-xz-cvL"/>
+                        <color key="backgroundColor" red="0.92829943790000002" green="0.85660956860000004" blue="0.73156211289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dST-5H-bQ0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TB1-cj-5dz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4652.1739130434789" y="63.616071428571423"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YvQ-MB-PwT"/>
+        <segue reference="spV-pM-PUZ"/>
+        <segue reference="f9s-Qr-F1U"/>
+        <segue reference="DE4-zS-Efm"/>
+        <segue reference="3vU-fd-shU"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled_Artwork.png" width="1117.0909423828125" height="1117.0909423828125"/>
         <image name="image0.png" width="288" height="432"/>
